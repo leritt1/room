@@ -13,5 +13,16 @@ body {
 }
 
 body {
-    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
 }
